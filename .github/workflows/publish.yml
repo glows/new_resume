@@ -1,0 +1,31 @@
+name: Publish My Resume
+
+on:
+  push:
+      branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  convert_to_pdf:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.1.4
+        with:
+          node-version: 12.x
+      - name: Convert Markdown to PDF
+        run: |
+          npm -g install md-to-pdf
+          md-to-pdf --stylesheet https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css --body-class markdown-body --css '.page-break { page-break-after: always; } .markdown-body { font-size: 11px; } .markdown-body pre > code { white-space: pre-wrap; }' README.md
+          mv -Force README.pdf resume.pdf
+      - uses: actions/upload-artifact@master
+        with:
+          name: publish-my-resume
+          path: resume.pdf
+      - uses: EndBug/add-and-commit@v7.0.0
+        with:
+          add: '.'
+          message: 'publish pdf (auto)'
+          push: true
