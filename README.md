@@ -1,4 +1,4 @@
-# 職務経歴書
+# 简历
 
 repository: [https://github.com/glows/resume](https://github.com/glows/resume)
 
@@ -18,7 +18,7 @@ repository: [https://github.com/glows/resume](https://github.com/glows/resume)
 
 我的工作包括: 在基于 Gin + React.js + Typescript 的内部框架中开发新功能，维护基于 React.js 的内部自定义框架的 Web 应用程序，在前端岗位维护和开发，大约有五年的开发经验。
 
-作为一名 Web 应用工程师，我希望工作能够围绕现代开发风格，利用技术来挑战大规模服务带来的挑战我想要更深入地体验WEB开发的技术堆栈，也想实践 Golang, Ruby,Node.js,Devops 等技术栈。
+作为一名 Web 应用工程师，我希望工作能够围绕现代开发风格，利用技术来挑战大规模服务带来的挑战我想要更深入地体验WEB开发的技术堆栈，也想实践 Golang、Ruby、Node.js、Devops 等技术栈。
 
 我对编程语言技术、软件开发方法论等很感兴趣。除了技术，我喜欢吉他，科幻和游泳。
 
@@ -116,7 +116,7 @@ pc端的教师家长学生操作管理系统。我负责技术选型；部分ui�
 
 ## 自我推荐
 
-我对技术有强烈的好奇心。我喜欢学习新的东西，深入探索直到可以理解背后眼里。
+我对技术有强烈的好奇心。我喜欢学习新的东西，深入探索到令人信服。
 
 从大学开始，我就一直在 Github pages 上运用静态博客写个人博客，主要以学习笔记为内容。当我们将生成器工具从 hexo 迁移到 hugo 时，我们也将我们最喜欢的主题迁移到 hugo，并将其作为 oss 项目发布。
 
