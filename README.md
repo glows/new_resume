@@ -68,10 +68,9 @@ repository: [https://github.com/glows/resume](https://github.com/glows/resume)
 
 ## 工作经历
 
-### 2018/8 - 2022/6 : 深圳声扬科技有限公司
-职务: 前端开发工程师
-#### 深圳市声扬科技有限公司 (2020.08-2022.04)
-开发中心     高级前端开发工程师  
+### 2020/8 - 2022/4 : 深圳声扬科技有限公司
+职务: 高级前端开发工程师  
+ 
 Reactjs + MySql + Gin  智能语音展示应用开发， 人工智能应用 SaaS 平台前端开发  
 * 语音识别、分割、活体识别的小程序开发
   - React + tailwindcss 
